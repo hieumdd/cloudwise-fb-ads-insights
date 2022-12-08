@@ -122,4 +122,4 @@ export const AGE_GENDER_INSIGHTS: Pipeline = {
     ],
 };
 
-export const pipelines = { AgeGenderInsights: AGE_GENDER_INSIGHTS };
+export const pipelines = { AGE_GENDER_INSIGHTS };

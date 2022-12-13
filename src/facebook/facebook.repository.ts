@@ -60,11 +60,6 @@ export const get = async (options: InsightsOptions & ReportOptions): Promise<Ins
                             operator: 'GREATER_THAN',
                             value: 0,
                         },
-                        {
-                            field: 'campaign.name',
-                            operator: 'CONTAIN',
-                            value: `LEADS`,
-                        },
                     ],
                     time_range: JSON.stringify({
                         since: options.start.format('YYYY-MM-DD'),

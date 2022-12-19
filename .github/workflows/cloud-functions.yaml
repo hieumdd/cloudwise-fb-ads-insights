@@ -10,8 +10,8 @@ env:
   PROJECT_ID: cloudwise-371013
   GCP_SA: integration-1@cloudwise-371013.iam.gserviceaccount.com
 
-  FUNCTION_NAME: good-united-fb-ads-insights-${{ github.ref_name }}
-  PUBLIC_URL: https://us-central1-cloudwise-371013.cloudfunctions.net/cloudwise-371013-fb-ads-insights-${{ github.ref_name }}
+  FUNCTION_NAME: cloudwise-fb-ads-insights-${{ github.ref_name }}
+  PUBLIC_URL: https://us-central1-cloudwise-371013.cloudfunctions.net/cloudwise-fb-ads-insights-${{ github.ref_name }}
 
   ENV_FILE: env.yaml
 
